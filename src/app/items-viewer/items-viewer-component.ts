@@ -23,7 +23,6 @@ export class ItemsViewerComponentComponent implements OnInit{
 
     ngOnInit() {
     this.items = this.dataService.getDataService();
-    console.log('Datos:', this.items); // Imprime los datos en la consola para verificar si se reciben correctamente
   }
 
 
