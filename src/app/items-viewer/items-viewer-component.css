@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .image-size {
+    width: 20%;
+    height: auto;
+  }
+  
+  /* .card {
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #ffffff;
+  } */
+  
+  .p-card-title {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .p-card-price {
+    margin-top: 0.5rem;
+  }
+  
